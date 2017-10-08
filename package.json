@@ -5,11 +5,13 @@
   "main": "server.js",
   "scripts": {
     "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.16.2",
     "express": "^4.16.1",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
